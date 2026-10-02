@@ -81,4 +81,6 @@ Redesign production is READY: dpl_CNsVuE9Bn3sATHiJiYqfXQh9VgsZ for application c
 - [ ] Generate reference-derived Meshy model after account authentication.
 - [ ] Validate connection, motion, reduced motion, build and deployment.
 
-Meshy device authorization is pending. Tripo callable tools are unavailable. ElevenLabs quota/subscription inspection is unavailable through the connector; no free-unlimited or commercial-license claim is made. Trial agent limits: ten sessions/day, two concurrent sessions, three minutes/session; microphone recording disabled, transcripts retained for seven days.
+Meshy device authorization is pending. Tripo callable tools are unavailable. ElevenLabs quota/subscription inspection is unavailable through the connector; no free-unlimited or commercial-license claim is made. User confirmed ElevenLabs Free plan. Production will use browser speech for local guidance; provider conversations are preview-only. Trial agent limits: ten sessions/day, two concurrent sessions, three minutes/session; microphone recording disabled, transcripts retained for seven days.
+
+AION validation: Next.js/TypeScript build passed; dependency audit reports zero vulnerabilities. Preview local topics and SVG fallback verified. ElevenLabs text session connected, greeted, answered a mobile-app inquiry and ended correctly. Cloud browser disables WebGL; 3D appearance/motion on a WebGL-capable device, mobile interaction and audio round-trip remain unverified. Meshy authorization expired twice; no paid Meshy create was submitted.
