@@ -1,16 +1,16 @@
-# Deployment handoff
-Status: production deployment pending.
+# Production deployment
+Status: READY, verified on 2026-10-02.
 
-Target GitHub account: tranzillofficial
-Repository: https://github.com/tranzillofficial/INDOM (public, created by the user)
-Target Vercel team: tranzillofficial-4512s-projects
-Framework: Next.js
-Build command: npm run build
-Install command: npm ci
-Root directory: repository root
+Repository: https://github.com/tranzillofficial/INDOM
+Vercel team: tranzillofficial-4512s-projects
+Vercel project: indom / prj_UgQFl9dYJeXTADxjdQ7Q1QptS8aO
+Production deployment: dpl_HzsAxsxKML7DCxKCYu9sPqyKRfPp
+Application source: 492549a06c9be1ca8b65f65a22c7ac5fa841d94e, main
+Arabic: https://indom-two.vercel.app/ar
+English: https://indom-two.vercel.app/en
 
-The user created INDOM. Repository access is verified. The complete application source is pushed to main (d38e0f0c7b023c91d44ca27556b87dc4a335677a). The Vercel deployment tool still returns Tool deploy_to_vercel not found. No production deployment has been created. A browser fallback for Vercel needs approval under the browser connector fallback rule.
+Framework: Next.js. Root directory: ./ . Build: npm run build. No environment variables are required for this informational version.
 
-No environment variables are needed for the informational site. The Supabase project nekzjsrheiwcxobgviuj was verified; no tables or policies were changed.
+The deployment connector was unavailable. After explicit user approval, browser import from the existing GitHub integration completed successfully. Production READY status was independently confirmed through Vercel's deployment connector. All ten live routes and locale switching were verified in the browser.
 
-Before enabling real inquiries, supply verified company email/phone and configure delivery. The current contact form intentionally downloads a local brief.
+Supabase project nekzjsrheiwcxobgviuj remains healthy; no database changes were necessary. Contact downloads a project brief locally. Configure a verified company inquiry destination before enabling submission.

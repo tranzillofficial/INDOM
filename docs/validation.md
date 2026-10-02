@@ -16,7 +16,7 @@
 - MagicPath: final component build completed.
 
 GitHub source upload: verified on tranzillofficial/INDOM main.
-Pending: Vercel production deployment/live checks and actual inquiry destination. Remote Figma MP4 could not be downloaded; animation export artifact is not included.
+Pending: actual inquiry destination. Production/live checks were completed in the milestone below. Remote Figma MP4 could not be downloaded; animation export artifact is not included.
 
 ## Follow-up validation, 2026-10-02
 - Production build and strict TypeScript: passed after mobile navigation changes.
@@ -26,3 +26,11 @@ Pending: Vercel production deployment/live checks and actual inquiry destination
 - Figma motion tracks and MagicPath component independently rechecked through connected tools.
 - Interactive validation of the new mobile menu remains pending: Chromium is absent and browser downloads returned invalid archives. The earlier visual/browser results above describe the prior navigation implementation.
 - Vercel still lists no INDOM project; deployment tool returns Tool not found.
+
+## Production browser validation, 2026-10-02
+- Vercel production deployment READY for application commit 492549a.
+- All ten live Arabic/English pages rendered with expected headings, titles, lang and dir.
+- No horizontal overflow at the current desktop browser viewport.
+- English to Arabic language switch preserves /contact.
+- Arabic landing screenshot visually reviewed; no product imagery is present.
+- Mobile-menu interaction checks remain pending; these desktop checks do not substitute for mobile tests.
