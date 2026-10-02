@@ -1,5 +1,5 @@
 'use client';
-import { useSyncExternalStore } from 'react';
+import { useLayoutEffect, useSyncExternalStore } from 'react';
 
 function subscribe(callback: () => void) {
   window.addEventListener('indom-theme', callback);
@@ -12,6 +12,10 @@ function subscribe(callback: () => void) {
 const getTheme = () => document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light';
 const serverTheme = () => 'light';
 export function ThemeToggle({ ar }: { ar: boolean }) {
+  useLayoutEffect(() => {
+    try { document.documentElement.dataset.theme = localStorage.getItem('indom-theme') === 'dark' ? 'dark' : 'light'; } catch {}
+    window.dispatchEvent(new Event('indom-theme'));
+  }, [ar]);
   const theme = useSyncExternalStore(subscribe, getTheme, serverTheme);
   const label = ar ? (theme === 'light' ? 'تفعيل الوضع الداكن' : 'تفعيل الوضع الفاتح') : (theme === 'light' ? 'Switch to dark theme' : 'Switch to light theme');
   function toggle() {

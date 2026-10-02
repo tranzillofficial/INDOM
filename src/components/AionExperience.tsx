@@ -49,6 +49,7 @@ export function AionExperience({ locale, providerEnabled }: { locale: 'en' | 'ar
   const volume = useRef(0); const sessionVersion = useRef(0); const starting = useRef(false);
   const reset = useRef<ReturnType<typeof setTimeout> | null>(null);
   const transcript = useRef<HTMLDivElement>(null);
+  useEffect(() => { window.speechSynthesis?.getVoices(); }, []);
   useEffect(() => {
     return () => { sessionVersion.current++; void session.current?.endSession(); window.speechSynthesis?.cancel(); if (reset.current) clearTimeout(reset.current); };
   }, []);

@@ -79,8 +79,11 @@ Redesign production is READY: dpl_CNsVuE9Bn3sATHiJiYqfXQh9VgsZ for application c
 - [x] Build editable Figma expression states.
 - [x] Build responsive interactive 3D character and browser voice/chat controls.
 - [ ] Generate reference-derived Meshy model after account authentication.
-- [ ] Validate connection, motion, reduced motion, build and deployment.
+- [x] Validate build, preview text connection, local expressions and production deployment.
+- [ ] Validate WebGL rendering, microphone/audio round-trip and mobile interactions on supported devices.
 
 Meshy device authorization is pending. Tripo callable tools are unavailable. ElevenLabs quota/subscription inspection is unavailable through the connector; no free-unlimited or commercial-license claim is made. User confirmed ElevenLabs Free plan. Production will use browser speech for local guidance; provider conversations are preview-only. Trial agent limits: ten sessions/day, two concurrent sessions, three minutes/session; microphone recording disabled, transcripts retained for seven days.
 
 AION validation: Next.js/TypeScript build passed; dependency audit reports zero vulnerabilities. Preview local topics and SVG fallback verified. ElevenLabs text session connected, greeted, answered a mobile-app inquiry and ended correctly. Cloud browser disables WebGL; 3D appearance/motion on a WebGL-capable device, mobile interaction and audio round-trip remain unverified. Meshy authorization expired twice; no paid Meshy create was submitted.
+
+AION production: dpl_2b5HN3p7scvcsykXuzJ2479CGwZC READY, source bece21dad8bf243723a0b6aeb2a70d8f9e28cc83. Arabic/English production pages and locale switching verified. Arabic local guidance and curious SVG state verified; no horizontal overflow. Production has no ElevenLabs start controls. Cloud browser has no Arabic system voice, and displays the localized text fallback. Theme now reapplies the saved preference when locale changes.

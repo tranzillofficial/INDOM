@@ -11,3 +11,5 @@ Voice: Daniel / onwK4e9ZLuTAKqWW03F9, an existing premade voice. No custom voice
 Body: procedural Three.js embodiment inspired by the references, not an exact photorealistic reconstruction. A generated Meshy GLB/rig remains pending account authorization. No paid Meshy tasks were submitted or credits consumed. Tripo tools are not available in this session.
 
 Acceptance: successful Next.js build including strict TypeScript. Browser preview fallback and local topic responses verified. This cloud browser disables WebGL; actual 3D rendering remains unverified on a WebGL-capable device. Live preview text session connected, greeted, answered a mobile-app question correctly and ended. Audio/microphone round-trip not exercised. User messages are rendered locally in text mode.
+
+Production: https://indom-two.vercel.app/ar/aion and /en/aion. READY deployment dpl_2b5HN3p7scvcsykXuzJ2479CGwZC. Production provider controls absent. Arabic system voice unavailable in the cloud browser; localized text fallback verified. Theme persistence across locale changes repaired.
