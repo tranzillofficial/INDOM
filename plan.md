@@ -65,5 +65,9 @@ Existing GitHub source, Figma per-letter motion tracks, MagicPath component and 
 - [x] Rebuild the navbar as a compact single row with a mobile dropdown.
 - [x] Limit the logo intro to one animation per document load; refresh/new visit can replay it.
 - [x] Next.js build including TypeScript passed.
-- [ ] Review the Vercel preview and verify theme/navigation behavior.
-- [ ] Publish the redesign to production.
+- [x] Review the Vercel preview and verify theme/navigation behavior.
+- [x] Publish the redesign to production.
+
+Redesign preview passed: light default, dark toggle, saved theme on refresh, and a static logo on client-side return to home. Header measured 75px at the desktop browser viewport. Arabic light/dark and English service cards were visually reviewed. No hydration errors were observed. Mobile breakpoint styles are implemented; this browser session did not expose viewport emulation for mobile interaction checks.
+
+Redesign production is READY: dpl_CNsVuE9Bn3sATHiJiYqfXQh9VgsZ for application commit 7de7256d698a66f5303b3ce568ca18e977c4a7c3. Verified the new Arabic homepage on https://indom-two.vercel.app/ar and saved the reviewed light-theme screenshot.

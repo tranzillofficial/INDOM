@@ -34,3 +34,12 @@ Pending: actual inquiry destination. Production/live checks were completed in th
 - English to Arabic language switch preserves /contact.
 - Arabic landing screenshot visually reviewed; no product imagery is present.
 - Mobile-menu interaction checks remain pending; these desktop checks do not substitute for mobile tests.
+
+## Landing redesign validation
+- Next.js build (including TypeScript) passed.
+- Ten generated pages passed light-default, locale and direction checks.
+- Home no longer contains replay controls, a logo frame, decorative IN artwork or product imagery.
+- Vercel preview READY for 7de7256d698a66f5303b3ce568ca18e977c4a7c3.
+- Browser: theme toggle, preference persistence after refresh, and no replay on client-side return to home passed.
+- Arabic light/dark and English service section visually reviewed. Header: 75px at the desktop viewport.
+- No hydration errors observed. Mobile interaction checks remain unperformed; responsive rules were reviewed in source.
