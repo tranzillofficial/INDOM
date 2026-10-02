@@ -29,6 +29,7 @@ export default async function Layout({ children, params }: { children: React.Rea
         <div className="header-tools"><LanguageLink locale={l} /><ThemeToggle ar={l === 'ar'} /><Link className="nav-cta" href={`/${l}/contact`}>{t.start}<span aria-hidden="true">↗</span></Link></div>
       </div></header>
       <main id="main">{children}</main>
+      <Link className="aion-launcher" href={`/${l}/aion`} aria-label={l === 'ar' ? 'اتعرّف على AION، مساعد INDOM' : 'Meet AION, your INDOM guide'}><span aria-hidden="true">✦</span><span>AION</span></Link>
       <footer><div><Link href={`/${l}`} className="footer-brand"><Brand compact /><span>LABS</span></Link><p>{t.footer}</p></div>
         <div className="footer-links">{sections.map((s, i) => <Link key={s} href={`/${l}/${s}`}>{t.nav[i + 1]}</Link>)}</div>
         <p className="copyright">© 2026 {t.rights}</p>

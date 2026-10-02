@@ -5,3 +5,7 @@ Styling: default ivory light palette and optional deep green dark palette. Share
 No backend changes until a concrete data flow is specified. Contact details must be user-supplied or verified.
 
 Locale layouts own their html lang and dir. The root redirect uses a separate (entry) layout. Localized not-found content follows the current pathname.
+
+## AION
+Dedicated /ar/aion and /en/aion routes preserve the concise landing page. A small persistent link opens AION. AionScene lazily imports Three.js and builds an articulated robot from editable geometry inspired by the reference; this is not a Meshy-generated or exact reference model. Face expressions follow the verified Figma component family and provider callbacks. Real audio volume drives speaking eyes and bars. Drag changes body orientation; pointer movement drives the head. Reduced motion disables idle motion, blinking and gestures. Scene resources are disposed on unmount. An SVG fallback preserves conversation access without WebGL.
+AionExperience lazily imports the official ElevenLabs client. Explicit voice/text start controls connect through WebSocket to agent_3101m3ykp4tfft0s82w2hc442tfe. No secret API key is exposed. English and Arabic greetings are allowed overrides. Session end, page exit and route unmount terminate the connection. Text/voice messages render as plain text. Three local exploration choices have deterministic copy and need no provider session.

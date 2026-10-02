@@ -71,3 +71,14 @@ Existing GitHub source, Figma per-letter motion tracks, MagicPath component and 
 Redesign preview passed: light default, dark toggle, saved theme on refresh, and a static logo on client-side return to home. Header measured 75px at the desktop browser viewport. Arabic light/dark and English service cards were visually reviewed. No hydration errors were observed. Mobile breakpoint styles are implemented; this browser session did not expose viewport emulation for mobile interaction checks.
 
 Redesign production is READY: dpl_CNsVuE9Bn3sATHiJiYqfXQh9VgsZ for application commit 7de7256d698a66f5303b3ce568ca18e977c4a7c3. Verified the new Arabic homepage on https://indom-two.vercel.app/ar and saved the reviewed light-theme screenshot.
+
+## AION embodiment, 2026-10-02
+- [x] Confirm INDOM website as integration target.
+- [x] Inspect character references and available providers.
+- [x] Create bilingual ElevenLabs AION guide with premade Daniel voice.
+- [x] Build editable Figma expression states.
+- [x] Build responsive interactive 3D character and browser voice/chat controls.
+- [ ] Generate reference-derived Meshy model after account authentication.
+- [ ] Validate connection, motion, reduced motion, build and deployment.
+
+Meshy device authorization is pending. Tripo callable tools are unavailable. ElevenLabs quota/subscription inspection is unavailable through the connector; no free-unlimited or commercial-license claim is made. Trial agent limits: ten sessions/day, two concurrent sessions, three minutes/session; microphone recording disabled, transcripts retained for seven days.
