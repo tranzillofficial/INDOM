@@ -97,3 +97,5 @@ AION production: dpl_2b5HN3p7scvcsykXuzJ2479CGwZC READY, source bece21dad8bf2437
 - [x] Add bilingual privacy, terms and storage information based on actual behavior.
 - [ ] Verify build, chat navigation, pages, themes and deploy.
 No client case studies or verified product URLs are currently supplied. Do not fabricate portfolio entries or live-product links.
+
+Preview build passed. Welcome panel, quick question, guidance response and allowlisted links verified in the browser. Gateway AI replies are blocked: $0 team credit; Vercel requires card verification for free credit. No billing details added. Site guide fallback answers service/product questions honestly.
