@@ -1,8 +1,8 @@
 # Indom implementation plan
 
 ## Requirements
-Next.js company website in Arabic and English. Black futuristic design. Recreate supplied INDOM LABS logo as editable SVG in Figma. IN and DOM use independently configurable colors. Letter assembly animation: I appears, shifts and reveals N, followed by D, O, M. Respect reduced motion.
-Landing page contains company profile, services, process, values and contact invitation. No individual project content or product imagery appears on the landing page. Projects belong exclusively on Our Projects.
+Next.js company website in Arabic and English. Light-first contemporary design with optional dark theme. Recreate supplied INDOM LABS logo as editable SVG in Figma. IN and DOM use independently configurable colors. Letter assembly animation: I appears, shifts and reveals N, followed by D, O, M. Respect reduced motion.
+Landing page contains a concise introduction, clear services, a short process and contact invitation. No individual project content or product imagery appears on the landing page. Projects belong exclusively on Our Projects.
 Working slogan: From Innovation to Domination / من الابتكار إلى الريادة.
 No invented clients, statistics, awards, testimonials, contact details or product status.
 
@@ -57,3 +57,13 @@ Existing GitHub source, Figma per-letter motion tracks, MagicPath component and 
 - All ten live routes rendered with correct headings, document language/direction and no horizontal overflow at the browser viewport.
 - Language switch preserved /contact. Arabic home screenshot visually reviewed.
 - Existing contact form remains a local brief download; it does not submit inquiries.
+
+## Redesign requested on 2026-10-02
+- [x] Remove the logo frame, replay control and decorative IN block.
+- [x] Rebuild the landing page with concise bilingual copy and explicit service categories.
+- [x] Add a default light palette, optional persistent dark palette and theme-aware logo colors.
+- [x] Rebuild the navbar as a compact single row with a mobile dropdown.
+- [x] Limit the logo intro to one animation per document load; refresh/new visit can replay it.
+- [x] Next.js build including TypeScript passed.
+- [ ] Review the Vercel preview and verify theme/navigation behavior.
+- [ ] Publish the redesign to production.

@@ -22,3 +22,6 @@ Figma motion tracks were verified structurally. The remote video download is blo
 Landing: company introduction, capabilities, profile, process, values, contact invitation.
 Projects: only on locale-specific projects pages. No portfolio or product images are used.
 Working slogan: From Innovation to Domination / من الابتكار إلى الريادة.
+
+## Light-first landing redesign, 2026-10-02
+Supersedes the original dark landing treatment: no logo frame, no replay button, no decorative IN block. Ivory background, teal IN paths and dark forest DOM/signature; dark mode uses mint IN and light DOM. Homepage copy is reduced to an introduction, six service cards, four short process steps and a CTA. Navigation occupies one row on desktop and mobile. All SVG geometry is preserved. Intro runs once per document, with a static mark on client-side return navigation.

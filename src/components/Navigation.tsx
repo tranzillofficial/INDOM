@@ -26,9 +26,8 @@ export function Navigation({ locale }: { locale: Locale }) {
 
   return <div className="navigation">
     <button ref={toggle} className="menu-toggle" aria-expanded={open}
-      aria-controls="primary-navigation" onClick={() => setExpandedPath(open ? null : pathname)}>
-      <span aria-hidden="true">{open ? '×' : '☰'}</span>
-      {ar ? (open ? 'إغلاق' : 'القائمة') : (open ? 'Close' : 'Menu')}
+      aria-controls="primary-navigation" aria-label={ar ? (open ? 'إغلاق القائمة' : 'فتح القائمة') : (open ? 'Close menu' : 'Open menu')} onClick={() => setExpandedPath(open ? null : pathname)}>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">{open ? <path d="m6 6 12 12M6 18 18 6" /> : <path d="M4 8h16M4 16h16" />}</svg>
     </button>
     <nav id="primary-navigation" className={open ? 'is-open' : ''}
       aria-label={ar ? 'التنقل الرئيسي' : 'Main navigation'}>
