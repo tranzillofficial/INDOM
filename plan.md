@@ -95,7 +95,11 @@ AION production: dpl_2b5HN3p7scvcsykXuzJ2479CGwZC READY, source bece21dad8bf2437
 - [x] Separate technology and marketing service paths.
 - [x] Rename own projects to Products; add a distinct client Work portfolio.
 - [x] Add bilingual privacy, terms and storage information based on actual behavior.
-- [ ] Verify build, chat navigation, pages, themes and deploy.
+- [x] Verify build, chat navigation, pages, themes and deploy.
 No client case studies or verified product URLs are currently supplied. Do not fabricate portfolio entries or live-product links.
 
 Preview build passed. Welcome panel, quick question, guidance response and allowlisted links verified in the browser. Gateway AI replies are blocked: $0 team credit; Vercel requires card verification for free credit. No billing details added. Site guide fallback answers service/product questions honestly.
+
+Production 348c5dd deployed READY (dpl_4fXxCaNMw9BrKH6dDVq3qBWrkaSY). Arabic and English services, product details, Work and privacy navigation verified. Production chat returns labeled guide response and marketing link; AI is not live. Both locales legal and business routes returned HTTP 200. Build and typecheck passed.
+- [ ] Owner input: activate Gateway credit (card verification required) to enable generated replies.
+- [ ] Owner input: provide approved client case studies, verified product links and a privacy/contact channel.

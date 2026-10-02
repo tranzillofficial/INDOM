@@ -26,6 +26,7 @@ export async function POST(request:Request){
  const origin=request.headers.get('origin');if(origin&&origin!==new URL(request.url).origin)return Response.json({error:'Invalid origin'},{status:403});
  if(Number(request.headers.get('content-length')||0)>12000)return Response.json({error:'Too large'},{status:413});
  const raw=await request.text();if(raw.length>12000)return Response.json({error:'Too large'},{status:413});let data;try{data=JSON.parse(raw)}catch{return Response.json({error:'Invalid request'},{status:400})}
+ if(!data||typeof data!=='object')return Response.json({error:'Invalid request'},{status:400});
  const ar=data.locale==='ar';if(!['ar','en'].includes(data.locale)||!Array.isArray(data.messages)||!data.messages.length||data.messages.length>8||data.messages.some((m:{role:string;content:string})=>!m||!['user','assistant'].includes(m.role)||typeof m.content!=='string'||m.content.length>1200))return Response.json({error:'Invalid messages'},{status:400});
  const last=data.messages.at(-1);if(last.role!=='user')return Response.json({error:'Invalid messages'},{status:400});
  const key=createHash('sha256').update(request.headers.get('x-forwarded-for')||'local').digest('hex');const now=Date.now();for(const [k,v] of limits)if(v.until<now)limits.delete(k);
