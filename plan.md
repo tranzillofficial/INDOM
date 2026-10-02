@@ -87,3 +87,13 @@ Meshy device authorization is pending. Tripo callable tools are unavailable. Ele
 AION validation: Next.js/TypeScript build passed; dependency audit reports zero vulnerabilities. Preview local topics and SVG fallback verified. ElevenLabs text session connected, greeted, answered a mobile-app inquiry and ended correctly. Cloud browser disables WebGL; 3D appearance/motion on a WebGL-capable device, mobile interaction and audio round-trip remain unverified. Meshy authorization expired twice; no paid Meshy create was submitted.
 
 AION production: dpl_2b5HN3p7scvcsykXuzJ2479CGwZC READY, source bece21dad8bf243723a0b6aeb2a70d8f9e28cc83. Arabic/English production pages and locale switching verified. Arabic local guidance and curious SVG state verified; no horizontal overflow. Production has no ElevenLabs start controls. Cloud browser has no Arabic system voice, and displays the localized text fallback. Theme now reapplies the saved preference when locale changes.
+
+## Site refinement, 2026-10-02
+- [x] Remove all AION character views and voice; replace with a welcome chat assistant.
+- [x] Remove founder name from all public text.
+- [x] Improve Arabic/English self-hosted fonts.
+- [x] Separate technology and marketing service paths.
+- [x] Rename own projects to Products; add a distinct client Work portfolio.
+- [x] Add bilingual privacy, terms and storage information based on actual behavior.
+- [ ] Verify build, chat navigation, pages, themes and deploy.
+No client case studies or verified product URLs are currently supplied. Do not fabricate portfolio entries or live-product links.

@@ -1,3 +1,4 @@
+import { ServicePaths } from '../../components/ServicePaths';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { Brand } from '../../components/Brand';
@@ -25,10 +26,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
       <div className="hero-bottom"><span>{t.footer}</span><Link href={`/${locale}/about`}>{t.aboutLink}<span aria-hidden="true">↗</span></Link></div>
     </section>
     <section id="services" className="section capabilities"><div className="section-heading"><div><p className="eyebrow">{t.capability}</p><h2>{t.serviceTitle}</h2></div><Link className="textlink" href={`/${locale}/services`}>{t.allServices}<span aria-hidden="true">↗</span></Link></div>
-      <div className="services-grid">{t.services.map(([number, title, desc], index) => <Link className="service" key={number} href={`/${locale}/services`}>
-        <div className="service-top"><svg className="service-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">{serviceIcons[index]}</svg><span className="card-arrow" aria-hidden="true">↗</span></div>
-        <h3>{title}</h3><p>{desc}</p>
-      </Link>)}</div>
+      <ServicePaths ar={locale === "ar"} />
     </section>
     <section className="section process"><div className="section-heading"><div><p className="eyebrow">{t.processLabel}</p><h2>{t.processTitle}</h2></div><p>{t.processIntro}</p></div>
       <div className="steps">{t.steps.map(([title, desc], i) => <div key={title}><span className="step-index">0{i + 1}</span><h3>{title}</h3><p>{desc}</p></div>)}</div>

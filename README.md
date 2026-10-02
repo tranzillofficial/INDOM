@@ -1,5 +1,5 @@
 # Indom Labs
-Bilingual Next.js company website. Home contains company information only; portfolio appears exclusively at /en/projects and /ar/projects.
+Bilingual Next.js company website. Home contains company information only; portfolio appears exclusively at /en/work and /ar/work; own products appear at /en/products and /ar/products.
 
 ## Development
 npm ci
