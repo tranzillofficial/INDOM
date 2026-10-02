@@ -17,6 +17,7 @@ No invented clients, statistics, awards, testimonials, contact details or produc
 - [x] Verify bilingual text, RTL, mobile layout and reduced motion.
 - [x] Create GitHub repository and push milestone commits.
 - [ ] Deploy and verify Vercel production.
+- [x] Add an accessible mobile menu, current-page indication and explicit desktop/SaaS services.
 
 ## Verified resources
 GitHub: tranzillofficial
@@ -41,3 +42,6 @@ Production build, strict TypeScript and dependency audit passed. Twenty desktop/
 Repository: https://github.com/tranzillofficial/INDOM
 Source commit: d38e0f0c7b023c91d44ca27556b87dc4a335677a
 The complete application source, SVG assets, planning files and motion component source were published on main. Desktop/mobile design screenshots remain in the saved deliverable rather than the production repository. Next.js production build passed again after synchronization. Vercel production is still pending.
+
+## Review on 2026-10-02
+Existing GitHub source, Figma per-letter motion tracks, MagicPath component and healthy Supabase project were independently rechecked. Vercel lists no INDOM project and deploy_to_vercel still returns Tool not found. Mobile navigation now uses a collapsible bilingual menu with aria-expanded, current-page indication, close-on-navigation and Escape support. Software services explicitly cover desktop apps and SaaS. Production build and strict TypeScript passed. All ten prerendered pages passed language/direction and current-navigation checks; home has no product images or portfolio names, and SVG letter layers are present. New interactive browser checks could not run: this workspace has no Chromium executable and browser downloads returned invalid archives. Previous browser validation predates this navigation change.

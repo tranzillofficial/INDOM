@@ -17,3 +17,12 @@
 
 GitHub source upload: verified on tranzillofficial/INDOM main.
 Pending: Vercel production deployment/live checks and actual inquiry destination. Remote Figma MP4 could not be downloaded; animation export artifact is not included.
+
+## Follow-up validation, 2026-10-02
+- Production build and strict TypeScript: passed after mobile navigation changes.
+- All ten generated route documents: correct language, direction and current-page link.
+- Both landing pages: no product images or individual portfolio names; all SVG letter groups present.
+- Both services pages explicitly include desktop applications and SaaS.
+- Figma motion tracks and MagicPath component independently rechecked through connected tools.
+- Interactive validation of the new mobile menu remains pending: Chromium is absent and browser downloads returned invalid archives. The earlier visual/browser results above describe the prior navigation implementation.
+- Vercel still lists no INDOM project; deployment tool returns Tool not found.
