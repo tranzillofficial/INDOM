@@ -3,3 +3,6 @@ node_modules/
 .vercel/
 .env*
 *.tsbuildinfo
+
+# Review screenshots are preserved in the saved deliverable.
+docs/home-*.png

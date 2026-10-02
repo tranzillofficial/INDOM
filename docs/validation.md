@@ -15,4 +15,5 @@
 - Figma: editable groups and manual letter animation tracks confirmed.
 - MagicPath: final component build completed.
 
-Pending: GitHub repository creation/push, Vercel production deployment/live checks, actual inquiry destination. Remote Figma MP4 could not be downloaded; animation export artifact is not included.
+GitHub source upload: verified on tranzillofficial/INDOM main.
+Pending: Vercel production deployment/live checks and actual inquiry destination. Remote Figma MP4 could not be downloaded; animation export artifact is not included.

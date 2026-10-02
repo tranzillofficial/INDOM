@@ -15,7 +15,7 @@ No invented clients, statistics, awards, testimonials, contact details or produc
 - [x] Scaffold Next.js with locale routes /en and /ar.
 - [x] Build home, about, services, projects and contact pages.
 - [x] Verify bilingual text, RTL, mobile layout and reduced motion.
-- [ ] Create GitHub repository and push milestone commits.
+- [x] Create GitHub repository and push milestone commits.
 - [ ] Deploy and verify Vercel production.
 
 ## Verified resources
@@ -26,7 +26,7 @@ Figma: Mohamed Nedaa's team
 MagicPath: Mohamed Nedaa personal workspace
 
 ## Blockers
-The user created https://github.com/tranzillofficial/INDOM. Repository access is verified and source upload is in progress. Vercel deployment remains blocked by the unavailable deployment tool. Do not mark deployment complete before successful verification.
+The user created https://github.com/tranzillofficial/INDOM. Repository access is verified and source code has been pushed to main. Vercel deployment remains blocked by the unavailable deployment tool. Do not mark deployment complete before successful verification.
 
 ## Implementation notes
 SVG paths were reconstructed from the supplied raster contours, converted to smooth Bézier geometry in Figma and exported. The exact original vector source was not supplied. IN uses steel blue; DOM uses white on black.
@@ -36,3 +36,8 @@ Figma timeline video was generated remotely; its download was blocked by the env
 
 ## Validation milestone
 Production build, strict TypeScript and dependency audit passed. Twenty desktop/mobile route checks passed, with no hydration errors or horizontal overflow. Locale switching preserves the page and updates html lang/dir. Reduced motion and brief download passed. Screenshots reviewed.
+
+## GitHub milestone
+Repository: https://github.com/tranzillofficial/INDOM
+Source commit: d38e0f0c7b023c91d44ca27556b87dc4a335677a
+The complete application source, SVG assets, planning files and motion component source were published on main. Desktop/mobile design screenshots remain in the saved deliverable rather than the production repository. Next.js production build passed again after synchronization. Vercel production is still pending.
