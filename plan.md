@@ -109,7 +109,9 @@ Production 348c5dd deployed READY (dpl_4fXxCaNMw9BrKH6dDVq3qBWrkaSY). Arabic and
 - [x] Publish MenuzQR only; remove unfinished products from cards and assistant knowledge.
 - [x] Protected Arabic/English admin login with Supabase Auth.
 - [x] Professional admin interface: overview, products, CRM, inquiry drafts and settings.
-- [ ] Verify authentication, interface interactions, build and deploy.
+- [x] Verify authentication, interface interactions, build and deploy.
 The requested scope is an interface prototype. No real visitor tracking, lead collection, message sending or content publication will be introduced. Product editing is explicitly local preview only.
 
 Admin verification: Next.js build and TypeScript passed. HTTP checks passed for unauthenticated redirects, AR/EN login language, incorrect-password denial, valid-password login, Secure/HttpOnly/SameSite/scoped cookie, authenticated dashboard SSR, logout cookie removal, and MenuzQR-only product pages. Bootstrap function is disabled (HTTP 410). Browser verified the Arabic preview login screen. Browser verification exercised the identical dashboard component through a temporary preview-only sample fixture: Arabic/English overview, add-product preview, CRM journey dialog and inquiry draft confirmation passed. The fixture was removed before production; authenticated access was tested by HTTP.
+
+Admin production release: bf6f6b50066fb5af24943dea630060a97bd1334c, deployment dpl_7xLNLP4oCAWmBcAJdwTf8TBtJ9yB READY. Production browser verified MenuzQR-only products, compact AION launcher and chat open/close, plus the protected login entry. Production HTTP sign-in, incorrect-password rejection, authenticated dashboard and logout passed.
