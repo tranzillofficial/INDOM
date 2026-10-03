@@ -15,3 +15,5 @@ Brief downloads a local text file only; it does not submit leads. No analytics, 
 Dashboard tabs are UI only: overview, products, CRM, inquiries, forms, settings. Only MenuzQR is published. Product additions/edits and reply drafts live in React state and reset on reload; no publication, sending or persistent CRM. Illustrative anonymous sample customers and activity are explicitly labeled, and real metric counts are not fabricated. No visit tracking, survey endpoint or customer data collection was introduced. Identifying a customer from visits alone is not possible.
 
 AION launcher is a compact custom SVG wordmark inspired by the reference character label: open chevron A with mint dot, I, rounded O and angular N, plus an AI chip icon. No avatar returns to the website. Assistant knowledge contains MenuzQR only.
+
+Account security is a live setting: server-validated admin identity, current-password reauthentication for the same user, matching new-password confirmation (10–200 characters), provider updateUser, global sign-out and cookie removal. No password is returned to the browser or stored in the repository.

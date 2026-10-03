@@ -115,3 +115,10 @@ The requested scope is an interface prototype. No real visitor tracking, lead co
 Admin verification: Next.js build and TypeScript passed. HTTP checks passed for unauthenticated redirects, AR/EN login language, incorrect-password denial, valid-password login, Secure/HttpOnly/SameSite/scoped cookie, authenticated dashboard SSR, logout cookie removal, and MenuzQR-only product pages. Bootstrap function is disabled (HTTP 410). Browser verified the Arabic preview login screen. Browser verification exercised the identical dashboard component through a temporary preview-only sample fixture: Arabic/English overview, add-product preview, CRM journey dialog and inquiry draft confirmation passed. The fixture was removed before production; authenticated access was tested by HTTP.
 
 Admin production release: bf6f6b50066fb5af24943dea630060a97bd1334c, deployment dpl_7xLNLP4oCAWmBcAJdwTf8TBtJ9yB READY. Production browser verified MenuzQR-only products, compact AION launcher and chat open/close, plus the protected login entry. Production HTTP sign-in, incorrect-password rejection, authenticated dashboard and logout passed.
+
+## Admin password settings, 2026-10-03
+- [x] Add bilingual current-password-verified password change.
+- [x] Update requested login password without storing it in source.
+- [ ] Verify rejection, successful rotation, build and production deployment.
+
+Password setting validation: production build and TypeScript passed. Local HTTP Server Action checks passed: missing-session denial, incorrect-current-password denial, confirmation mismatch denial, successful requested rotation, scoped cookie removal, new-password login and old-password rejection. No password value is committed.
