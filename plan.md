@@ -134,3 +134,8 @@ Password settings production: application commit 8584df15cf5c3718679518590388ec7
 Preview checks passed: initial centered I and camera transform observed; letter opacity stays 1 while per-glyph translations/rotations/scales move the SVG paths. Splash removed after timeout, content is no longer inert and body scroll restores. Internal service navigation does not replay it. AION measures 84px wide with 8px radius and no chip icon; desktop has no horizontal overflow. Reduced-motion skip is implemented; this browser has no preference/viewport emulation.
 
 Kinetic entrance production: 5a68b183c7efea3c1b919764befbaed8c54bb92c, dpl_67SuPFMWz2YkQPMmtNr2xS7gS2oe READY. Production screenshot captured during letter construction with Powered by AION below. After entrance: content visible, no remaining overlay, icon-free 84px launcher with 8px radius and no horizontal overflow. Preview English locale preservation and dark-theme toggle passed.
+
+## Entrance hold and depth streaks, 2026-10-03
+- [x] Hold completed logo for two seconds, then transition.
+- [x] Add subtle outward radial streaks during the inward camera push.
+- [ ] Verify build and live entrance, then deploy and update plan.
