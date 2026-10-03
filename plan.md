@@ -130,3 +130,5 @@ Password settings production: application commit 8584df15cf5c3718679518590388ec7
 - [x] Replace fade assembly with physical per-letter movement and a 2-second splash.
 - [x] Compact icon-free AION launcher with slightly rounded corners.
 - [ ] Verify motion, once-per-load navigation, reduced motion, build and deployment.
+
+Preview checks passed: initial centered I and camera transform observed; letter opacity stays 1 while per-glyph translations/rotations/scales move the SVG paths. Splash removed after timeout, content is no longer inert and body scroll restores. Internal service navigation does not replay it. AION measures 84px wide with 8px radius and no chip icon; desktop has no horizontal overflow. Reduced-motion skip is implemented; this browser has no preference/viewport emulation.
