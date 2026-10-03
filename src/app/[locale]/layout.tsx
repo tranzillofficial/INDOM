@@ -4,6 +4,7 @@ import '@fontsource/tajawal/700.css';
 import '@fontsource/manrope/400.css';
 import '@fontsource/manrope/600.css';
 import '@fontsource/manrope/700.css';
+import { SiteEntrance } from '../../components/SiteEntrance';
 import { WelcomeChat } from '../../components/WelcomeChat';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -29,7 +30,7 @@ export default async function Layout({ children, params }: { children: React.Rea
   return <html lang={l} dir={l === 'ar' ? 'rtl' : 'ltr'} data-theme="light" suppressHydrationWarning>
     <body>
       <script dangerouslySetInnerHTML={{ __html: themeScript }} />
-      <a className="skip" href="#main">{t.skip}</a>
+      <SiteEntrance><a className="skip" href="#main">{t.skip}</a>
       <header className="site-header"><div className="header-inner">
         <Link href={`/${l}`} className="navbrand" aria-label="Indom Labs"><Brand compact /><span>LABS</span></Link>
         <Navigation locale={l} />
@@ -40,7 +41,7 @@ export default async function Layout({ children, params }: { children: React.Rea
       <footer><div><Link href={`/${l}`} className="footer-brand"><Brand compact /><span>LABS</span></Link><p>{t.footer}</p></div>
         <div className="footer-links">{sections.map((s, i) => <Link key={s} href={`/${l}/${s}`}>{t.nav[i + 1]}</Link>)}</div>
         <div className="legal-links">{[["privacy", l === "ar" ? "سياسة الخصوصية" : "Privacy"], ["terms", l === "ar" ? "الشروط" : "Terms"], ["storage", l === "ar" ? "التخزين وملفات الارتباط" : "Storage & cookies"]].map(([path, label]) => <Link key={path} href={`/${l}/${path}`}>{label}</Link>)}</div><p className="copyright">© 2026 {t.rights}</p>
-      </footer>
+      </footer></SiteEntrance>
     </body>
   </html>;
 }

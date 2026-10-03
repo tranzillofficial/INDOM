@@ -22,7 +22,7 @@ export default async function Home({ params }: { params: Promise<{ locale: strin
         <h1>{t.headline[0]}<br /><em>{t.headline[1]}</em></h1><p className="intro">{t.intro}</p>
         <div className="actions"><Link className="button" href={`/${locale}/contact`}>{t.start}<span aria-hidden="true">↗</span></Link><Link className="textlink" href="#services">{t.explore}<span aria-hidden="true">↓</span></Link></div>
       </div>
-      <div className="hero-brand"><Brand animated /><p className="slogan">{t.slogan}</p></div>
+      <div className="hero-brand"><Brand /><p className="slogan">{t.slogan}</p></div>
       <div className="hero-bottom"><span>{t.footer}</span><Link href={`/${locale}/about`}>{t.aboutLink}<span aria-hidden="true">↗</span></Link></div>
     </section>
     <section id="services" className="section capabilities"><div className="section-heading"><div><p className="eyebrow">{t.capability}</p><h2>{t.serviceTitle}</h2></div><Link className="textlink" href={`/${locale}/services`}>{t.allServices}<span aria-hidden="true">↗</span></Link></div>

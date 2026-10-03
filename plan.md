@@ -124,3 +124,9 @@ Admin production release: bf6f6b50066fb5af24943dea630060a97bd1334c, deployment d
 Password setting validation: production build and TypeScript passed. Local HTTP Server Action checks passed: missing-session denial, incorrect-current-password denial, confirmation mismatch denial, successful requested rotation, scoped cookie removal, new-password login and old-password rejection. No password value is committed.
 
 Password settings production: application commit 8584df15cf5c3718679518590388ec7f90d04e53, deployment dpl_HEQqrQbKdAZa8ZVk59uPmFakT7Mk READY. Production password login verified.
+
+## Kinetic brand intro, 2026-10-03
+- [x] Attempt reference access: YouTube search/open unavailable; direct media returned invalid bytes. Motion follows the user’s description, not a claimed exact match.
+- [x] Replace fade assembly with physical per-letter movement and a 2-second splash.
+- [x] Compact icon-free AION launcher with slightly rounded corners.
+- [ ] Verify motion, once-per-load navigation, reduced motion, build and deployment.
