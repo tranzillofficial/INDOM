@@ -111,3 +111,5 @@ Production 348c5dd deployed READY (dpl_4fXxCaNMw9BrKH6dDVq3qBWrkaSY). Arabic and
 - [x] Professional admin interface: overview, products, CRM, inquiry drafts and settings.
 - [ ] Verify authentication, interface interactions, build and deploy.
 The requested scope is an interface prototype. No real visitor tracking, lead collection, message sending or content publication will be introduced. Product editing is explicitly local preview only.
+
+Admin verification: Next.js build and TypeScript passed. HTTP checks passed for unauthenticated redirects, AR/EN login language, incorrect-password denial, valid-password login, Secure/HttpOnly/SameSite/scoped cookie, authenticated dashboard SSR, logout cookie removal, and MenuzQR-only product pages. Bootstrap function is disabled (HTTP 410). Browser verified the Arabic preview login screen. Protected dashboard interactions were not exercised in the browser; secure browser sign-in needs user-provided credentials.
