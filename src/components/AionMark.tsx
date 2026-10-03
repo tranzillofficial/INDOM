@@ -1,0 +1,1 @@
+export function AionMark(){return <svg viewBox="0 0 128 28" fill="none" aria-hidden="true" className="aion-mark"><g stroke="currentColor" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"><path d="M3 23 16 4 29 23M43 5v18M105 23V5l19 18V5"/><rect x="60" y="5" width="26" height="18" rx="6"/></g><circle cx="16" cy="21" r="2.7" fill="var(--brand-in)"/></svg>}

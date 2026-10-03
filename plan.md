@@ -103,3 +103,11 @@ Preview build passed. Welcome panel, quick question, guidance response and allow
 Production 348c5dd deployed READY (dpl_4fXxCaNMw9BrKH6dDVq3qBWrkaSY). Arabic and English services, product details, Work and privacy navigation verified. Production chat returns labeled guide response and marketing link; AI is not live. Both locales legal and business routes returned HTTP 200. Build and typecheck passed.
 - [ ] Owner input: activate Gateway credit (card verification required) to enable generated replies.
 - [ ] Owner input: provide approved client case studies, verified product links and a privacy/contact channel.
+
+## AION launcher and admin interface, 2026-10-03
+- [x] Compact custom SVG AION wordmark and AI chip launcher.
+- [x] Publish MenuzQR only; remove unfinished products from cards and assistant knowledge.
+- [x] Protected Arabic/English admin login with Supabase Auth.
+- [x] Professional admin interface: overview, products, CRM, inquiry drafts and settings.
+- [ ] Verify authentication, interface interactions, build and deploy.
+The requested scope is an interface prototype. No real visitor tracking, lead collection, message sending or content publication will be introduced. Product editing is explicitly local preview only.
