@@ -129,6 +129,8 @@ Password settings production: application commit 8584df15cf5c3718679518590388ec7
 - [x] Attempt reference access: YouTube search/open unavailable; direct media returned invalid bytes. Motion follows the user’s description, not a claimed exact match.
 - [x] Replace fade assembly with physical per-letter movement and a 2-second splash.
 - [x] Compact icon-free AION launcher with slightly rounded corners.
-- [ ] Verify motion, once-per-load navigation, reduced motion, build and deployment.
+- [x] Verify motion, once-per-load navigation, build and deployment; reduced-motion skip implemented (device preference not emulated).
 
 Preview checks passed: initial centered I and camera transform observed; letter opacity stays 1 while per-glyph translations/rotations/scales move the SVG paths. Splash removed after timeout, content is no longer inert and body scroll restores. Internal service navigation does not replay it. AION measures 84px wide with 8px radius and no chip icon; desktop has no horizontal overflow. Reduced-motion skip is implemented; this browser has no preference/viewport emulation.
+
+Kinetic entrance production: 5a68b183c7efea3c1b919764befbaed8c54bb92c, dpl_67SuPFMWz2YkQPMmtNr2xS7gS2oe READY. Production screenshot captured during letter construction with Powered by AION below. After entrance: content visible, no remaining overlay, icon-free 84px launcher with 8px radius and no horizontal overflow. Preview English locale preservation and dark-theme toggle passed.
