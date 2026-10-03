@@ -138,4 +138,6 @@ Kinetic entrance production: 5a68b183c7efea3c1b919764befbaed8c54bb92c, dpl_67SuP
 ## Entrance hold and depth streaks, 2026-10-03
 - [x] Hold completed logo for two seconds, then transition.
 - [x] Add subtle outward radial streaks during the inward camera push.
-- [ ] Verify build and live entrance, then deploy and update plan.
+- [x] Verify build and live entrance, then deploy and update plan.
+
+Hold/depth production: 192188316e14d6540e917b72dc26ffe8e0a66662, deployment dpl_4npxGSkjLsDFBZaByPGjaPTi36Ag READY. Build and TypeScript passed. Browser observed 4s camera duration, 22 rays delayed 3.4s, and captured the complete logo with visible outward streaks during the final zoom. Post-intro homepage is usable.
