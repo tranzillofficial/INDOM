@@ -119,6 +119,8 @@ Admin production release: bf6f6b50066fb5af24943dea630060a97bd1334c, deployment d
 ## Admin password settings, 2026-10-03
 - [x] Add bilingual current-password-verified password change.
 - [x] Update requested login password without storing it in source.
-- [ ] Verify rejection, successful rotation, build and production deployment.
+- [x] Verify rejection, successful rotation, build and production deployment.
 
 Password setting validation: production build and TypeScript passed. Local HTTP Server Action checks passed: missing-session denial, incorrect-current-password denial, confirmation mismatch denial, successful requested rotation, scoped cookie removal, new-password login and old-password rejection. No password value is committed.
+
+Password settings production: application commit 8584df15cf5c3718679518590388ec7f90d04e53, deployment dpl_HEQqrQbKdAZa8ZVk59uPmFakT7Mk READY. Production password login verified.
